@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <asl-hello></asl-hello>
+    <asl-test></asl-test>
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>

@@ -25,3 +25,19 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## 测试包  
+
+### 本地测试  
+
+`npm link ansheng-lib`  
+
+`src/main.js`  
+import AnshengLib from 'ansheng-lib'
+Vue.use(AnshengLib)
+
+`views/Home.vue`  
+`<asl-hello></asl-hello>`  
+`<asl-test></asl-test>`  
+
