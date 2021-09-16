@@ -34,10 +34,28 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 `npm link ansheng-lib`  
 
 `src/main.js`  
-import AnshengLib from 'ansheng-lib'
-Vue.use(AnshengLib)
+`import AnshengLib from 'ansheng-lib'`  
+`Vue.use(AnshengLib)`
 
 `views/Home.vue`  
 `<asl-hello></asl-hello>`  
 `<asl-test></asl-test>`  
 
+
+### npm测试
+
+`npm i asl-big-screen-v2.0`  
+
+`src/main.js`  
+`import { AslFrame, AslTest} from "asl-big-screen-v2.0";`  
+`Vue.use(AslFrame)`  
+`Vue.use(AslTest)`
+
+`views/Home.vue`  
+`<asl-frame>`  
+    `<asl-test />`  
+`</asl-frame>`
+
+## 运行  
+`npm link ansheng-lib`
+`npm run serve`
